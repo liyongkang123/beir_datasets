@@ -34,7 +34,7 @@ You can view all datasets available **[here](https://public.ukp.informatik.tu-da
 | SciFact| [Homepage](https://github.com/allenai/scifact) | ``scifact``| ✅ | ``train``<br>``test``|  300     |  5K    |  1.1 |  [Link](https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/scifact.zip)  | ``5f7d1de60b170fc8027bb7898e2efca1`` |
 
 
-### How to use it:
+## :beers:  How to use it:
 
 The usage is exactly the same as when using the original BEIR datasets. Simply replace the download URL in the code with ours. The specific code is as follows:
 
