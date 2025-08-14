@@ -3,13 +3,20 @@ This `Extended Beir Datasets` is derived from the original BEIR dataset download
 
 On this basis, I have added new datasets (`msmarco_titled`, `trec_dl19`, `trec_dl20`) and maintained the same format as the original, making it more convenient for evaluation.
 
+## :beers: Available Datasets (Extended)
+| Dataset                     | Website| BEIR-Name          | Public? | Type                             | Queries | Corpus | Rel D/Q | Down-load | md5 | Note|
+|-----------------------------| -----|--------------------| ------- |----------------------------------|---------| ---------|---------| :----------: | :------:|:------:|
+| MSMARCO Passage(with title) | [Homepage](https://microsoft.github.io/msmarco/)| ``msmarco_titled`` | ✅ | ``train``<br>``dev``<br>``test`` | 6,980   |  8.84M     | 1.1     | [Link](https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/msmarco.zip) | ``444067daf65d982533ea17ebd59501e4`` | From [Tevatron](https://huggingface.co/datasets/Tevatron/msmarco-passage-corpus) |
+| TREC-DL 19                  |  [Homepage](https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019)| ``trec_dl19``     | ✅ | ``test``                         | 43      |  8.84M | 95.4    | [Link](https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/trec-covid.zip) | ``ce62140cb23feb9becf6270d0d1fe6d1`` |
+| TREC-DL 20                  | [Homepage](https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020.html) | ``trec_dl20``       | ✅ | ``test``                         | 54      |  8.84M     | 66.8    | [Link](https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/nfcorpus.zip) | ``a89dba18a62ef92f7d323ec890a0d38d`` |
 
-## :beers: Available Datasets
+
+
+## :beers: Available Datasets (Original)
 
 Command to generate md5hash using Terminal:  ``md5sum filename.zip``.
 
 You can view all datasets available **[here](https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/)** or on **[Hugging Face](https://huggingface.co/BeIR)**.
-
 
 | Dataset   | Website| BEIR-Name | Public? | Type | Queries  | Corpus | Rel D/Q | Down-load | md5 |
 | -------- | -----| ---------| ------- | --------- | ----------- | ---------| ---------| :----------: | :------:|
