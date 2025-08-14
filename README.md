@@ -1,2 +1,2 @@
-# BEIR_datasets
-BEIR_datasets
+# Beir_datasets
+Beir_datasets
