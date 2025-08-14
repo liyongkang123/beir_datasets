@@ -63,7 +63,7 @@ data_path = util.download_and_unzip(url, out_dir)
 
 corpus, queries, qrels = GenericDataLoader(data_folder=data_path).load(split="test")
 ```
-Specifically, replace the download link :
+Specifically, replace the download link with the following:
 ```python
 url = f"https://github.com/liyongkang123/extended_beir_datasets/releases/download/beir_v1.0/{dataset}.zip"
 ```
