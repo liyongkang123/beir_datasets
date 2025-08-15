@@ -54,7 +54,8 @@ for id in corpus.keys():
         assert corpus[id]['text'] == tevatron_corpus_json[id]['text']
         corpus[id]['title'] = tevatron_corpus_json[id]['title']
         # In `Tevatron`, all empty titles are set to '-', and I have kept this behavior here.
-        # So sometimes you may see `corpus[id]['title'] = '-'` 
+        # So sometimes you may see `corpus[id]['title'] = '-'`
+        # if you want to remove the dash in the title. Please use the following datasets:   msmarco_titled_without_dash
 
     except KeyError:
         # If the id is not found in tevatron_corpus_json, print the id and the original text
