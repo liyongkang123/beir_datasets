@@ -1,4 +1,4 @@
-# Beir_datasets
+# Extended Beir Datasets
 This `Extended Beir Datasets` is derived from the original BEIR dataset download link: [https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/](https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/)
 
 On this basis, I have added new datasets (`msmarco_titled`, `trec_dl19`, `trec_dl20`) and maintained the same format as the original, making it more convenient for evaluation.
